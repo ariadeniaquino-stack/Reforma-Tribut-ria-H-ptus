@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe Id="NFe35260311111111000111550010000000021000000028" versao="4.00">
+      <ide>
+        <mod>55</mod>
+        <nNF>2</nNF>
+        <dhEmi>2026-04-10T09:00:00-03:00</dhEmi>
+        <finNFe>1</finNFe>
+      </ide>
+      <emit>
+        <CNPJ>11111111000111</CNPJ>
+        <xNome>FORNECEDOR SIMPLES ME</xNome>
+        <enderEmit><UF>SP</UF></enderEmit>
+        <CRT>1</CRT>
+      </emit>
+      <dest>
+        <CNPJ>98765432000111</CNPJ>
+        <xNome>COMERCIO BETA LTDA</xNome>
+        <enderDest><UF>SP</UF></enderDest>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <xProd>MERCADORIA REVENDA</xProd>
+          <CFOP>5102</CFOP>
+          <NCM>22021000</NCM>
+          <vProd>800.00</vProd>
+          <vDesc>0.00</vDesc>
+        </prod>
+        <imposto>
+          <ICMS><ICMSSN102><CSOSN>102</CSOSN></ICMSSN102></ICMS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vProd>800.00</vProd>
+          <vNF>800.00</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>

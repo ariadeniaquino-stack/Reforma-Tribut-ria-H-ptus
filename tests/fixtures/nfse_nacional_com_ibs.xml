@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.00">
+  <infNFSe Id="NFSe35012345678000190000000000051">
+    <nNFSe>51</nNFSe>
+    <cLocEmi>3550308</cLocEmi>
+    <dhEmi>2026-04-25T11:00:00-03:00</dhEmi>
+    <tpEmit>1</tpEmit>
+    <DPS>
+      <infDPS>
+        <prest>
+          <CNPJ>22222222000122</CNPJ>
+          <IM>123456</IM>
+          <xNome>CONSULTORIA DELTA LTDA</xNome>
+          <regTrib><opSimpNac>0</opSimpNac><porte>3</porte></regTrib>
+        </prest>
+        <toma>
+          <CNPJ>98765432000111</CNPJ>
+          <xNome>COMERCIO BETA LTDA</xNome>
+        </toma>
+        <serv>
+          <locPrest><cLocPrestacao>3550308</cLocPrestacao></locPrest>
+          <cServ>
+            <cTribNac>010701</cTribNac>
+            <cTribMun>01234</cTribMun>
+          </cServ>
+          <xDescServ>SERVICOS DE CONSULTORIA TRIBUTARIA</xDescServ>
+        </serv>
+        <valores>
+          <vServPrest><vReceb>2000.00</vReceb><vServ>2000.00</vServ></vServPrest>
+          <vDescCondIncond><vDescIncond>0.00</vDescIncond></vDescCondIncond>
+          <trib>
+            <tribMun>
+              <tribISSQN>
+                <cLocIncid>3550308</cLocIncid>
+                <vBC>2000.00</vBC>
+                <pAliq>5.00</pAliq>
+                <tpRetISSQN>1</tpRetISSQN>
+              </tribISSQN>
+            </tribMun>
+            <tribFed>
+              <IBSCBS>
+                <CST>001</CST>
+                <vBC>2000.00</vBC>
+                <pIBS>10.00</pIBS>
+                <vIBS>200.00</vIBS>
+                <pCBS>9.00</pCBS>
+                <vCBS>180.00</vCBS>
+              </IBSCBS>
+              <retTrib>
+                <vRetIRRF>30.00</vRetIRRF>
+                <vRetPIS>13.00</vRetPIS>
+                <vRetCOFINS>60.00</vRetCOFINS>
+                <vRetCSLL>20.00</vRetCSLL>
+                <vRetINSS>0.00</vRetINSS>
+              </retTrib>
+            </tribFed>
+            <totTrib><vTotTrib>380.00</vTotTrib></totTrib>
+          </trib>
+        </valores>
+      </infDPS>
+    </DPS>
+  </infNFSe>
+</NFSe>

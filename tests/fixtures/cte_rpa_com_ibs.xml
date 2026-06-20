@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cteProc versao="3.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <CTe>
+    <infCte Id="CTe35260355555555000155570010000000041000000042" versao="3.00">
+      <ide>
+        <cUF>35</cUF>
+        <CFOP>6352</CFOP>
+        <dhEmi>2026-03-20T14:00:00-03:00</dhEmi>
+        <finCTe>0</finCTe>
+      </ide>
+      <emit>
+        <CNPJ>55555555000155</CNPJ>
+        <xNome>TRANSPORTADORA GAMA LTDA</xNome>
+        <enderEmit><UF>SP</UF></enderEmit>
+        <CRT>3</CRT>
+      </emit>
+      <rem>
+        <CNPJ>12345678000190</CNPJ>
+        <xNome>INDUSTRIA ALFA LTDA</xNome>
+      </rem>
+      <dest>
+        <CNPJ>98765432000111</CNPJ>
+        <xNome>COMERCIO BETA LTDA</xNome>
+        <enderDest><UF>RJ</UF></enderDest>
+      </dest>
+      <vPrest>
+        <vTPrest>300.00</vTPrest>
+        <Comp><xNome>Frete Peso</xNome><vComp>250.00</vComp></Comp>
+        <Comp><xNome>Pedagio</xNome><vComp>50.00</vComp></Comp>
+      </vPrest>
+      <imp>
+        <vTotTrib>54.00</vTotTrib>
+        <IBSCBS>
+          <CST>001</CST>
+          <gIBSCBS>
+            <vBC>300.00</vBC>
+            <vIBS>30.00</vIBS>
+            <gCBS><pCBS>9.00</pCBS><vCBS>27.00</vCBS></gCBS>
+          </gIBSCBS>
+        </IBSCBS>
+      </imp>
+      <infCTeNorm>
+        <infDoc>
+          <infNFe><chave>35260312345678000190550010000000011000000017</chave></infNFe>
+        </infDoc>
+      </infCTeNorm>
+    </infCte>
+  </CTe>
+</cteProc>
